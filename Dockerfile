@@ -9,6 +9,7 @@ RUN apt-get update && \
 RUN pip install sqlalchemy \
                 flask      \
                 cubes[all]
-RUN git clone git://github.com/DataBrewery/cubes.git
+RUN git clone git://github.com/DataBrewery/cubes.git && \
+    cd cubes && \
+    git checkout v1.0.1
 
-ENTRYPOINT [""]
