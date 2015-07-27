@@ -3,7 +3,7 @@ MAINTAINER Hǎiliàng Wáng <w@h12.me>
 
 RUN apt-get update && \
     apt-get install --yes python-dev \
-                          python-pip
+                          python-pip \
                           git
 
 RUN pip install sqlalchemy \
