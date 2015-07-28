@@ -5,5 +5,5 @@ Usage
 -----
 
 ```bash
-docker run -d -p [port]:[port] h12w/cubes
+docker run --detach=true --publish=[port]:[port] --volume=`pwd`:/work h12w/cubes
 ```
