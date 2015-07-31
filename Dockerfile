@@ -7,6 +7,6 @@ RUN pip install sqlalchemy   \
                 MySQL-Python \
                 cubes[all]
 
-WORKDIR /work
+WORKDIR /cubes
 
 ENTRYPOINT slicer serve slicer.ini
