@@ -5,6 +5,7 @@ RUN pip install sqlalchemy   \
                 flask        \
                 Jinja2       \
                 MySQL-Python \
+				psycopg2	 \
                 cubes[all]
 
 WORKDIR /cubes
